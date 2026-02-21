@@ -68,7 +68,7 @@ if "chat" not in st.session_state:
     # Gemini setup
     genai.configure(api_key=GEMINI_KEY)
     st.session_state.gemini_model = genai.GenerativeModel(
-        model_name="gemini-2.5-flash",  # 2.5 nahi, 1.5 use kar
+        model_name="gemini-1.5-flash",  # 2.5 nahi, 1.5 use kar
         system_instruction=system_prompt
     )
     st.session_state.chat = st.session_state.gemini_model.start_chat(history=[])
