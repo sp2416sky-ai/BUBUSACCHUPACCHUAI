@@ -21,3 +21,6 @@ Bubu AI ek advanced AI chatbot hai jo sirf baatein nahi karta, balki dimaag bhi 
 
 ---
 Made with ❤️ sachinBubu
+
+
+<img width="934" height="841" alt="image" src="https://github.com/user-attachments/assets/5124f2fd-785a-4146-ac8d-8ca44504e4f8" />
