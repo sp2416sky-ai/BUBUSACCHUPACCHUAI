@@ -1,3 +1,6 @@
+import os
+GEMINI_KEY = os.getenv("GOOGLE_API_KEY")
+DEEPSEEK_KEY = os.getenv("DEEPSEEK_API_KEY")
 import streamlit as st
 import google.generativeai as genai
 import openai  # DeepSeek ke liye (OpenAI compatible API)
@@ -44,8 +47,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------- API KEYS (TERI KEYS DAL) ----------
-GEMINI_KEY = "AIzaSyDWJDDu-3utug2GJmPwFwT_5kZHXPeR6YU"  # Teri Gemini key
-DEEPSEEK_KEY = "sk-5c6d20af09ea4deeb37c09207c677397"  # Yahan DeepSeek API key dal (OpenRouter ya DeepSeek se le)
 
 # ---------- BUBU KI PERSONALITY ----------
 system_prompt = """Tumhara naam Bubu AI hai. 
