@@ -20,4 +20,4 @@ Bubu AI ek advanced AI chatbot hai jo sirf baatein nahi karta, balki dimaag bhi 
 4. `streamlit run bubu.py`
 
 ---
-Made with ❤️ by Bubu
+Made with ❤️ sachinBubu
